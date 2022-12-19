@@ -1,0 +1,5 @@
+pageObjects\RegisterPage.class
+baseTest\DefineWebDriver.class
+pageObjects\HomePage.class
+commonOperations\GeneralActions.class
+testCases\RegressionSuite.class

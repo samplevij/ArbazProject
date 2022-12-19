@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+
+<parameter name="browser" value="edge"></parameter>
+<parameter name="appUrl" value="https://demo.guru99.com/test/newtours"></parameter>
+
+  <test thread-count="5" name="Test">
+  
+  <classes>
+  <class name="baseTest.DefineWebDriver"></class>
+    <class name="runner.TestRunner"></class>
+  </classes>
+  
+  
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
